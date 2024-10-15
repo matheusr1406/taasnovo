@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taas Solution</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html" class="nav-brand">
+          <h4 class="nav-title">Taas Solution</h4>
+        </a>
+        <ul class="nav__menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#quem-somos">Quem Somos</a></li>
+          <li><a href="#o-que-fazemos">O que fazemos</a></li>
+          <li><a href="#parceiros">Parceiros</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="language-switcher">
+          <a href="index.html"
+            ><img
+              src="images/brazil-flag.png"
+              alt="Português"
+              class="flag-icon"
+          /></a>
+          <a href="CC.html"
+            ><img src="images/usa-flag.webp" alt="English" class="flag-icon"
+          /></a>
+        </div>
+        <button id="open-menu-btn" class="menu-btn">
+          <i class="uil uil-bars"></i>
+        </button>
+        <button id="close-menu-btn" class="menu-btn" style="display: none">
+          <i class="uil uil-times"></i>
+        </button>
+      </div>
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <div class="header-text">
+          <h1>Conectamos sua jornada de transformação digital</h1>
+          <p>Potencializamos a inovação e a eficiência.</p>
+          <a href="#servicos" class="cta-button">Saiba Mais</a>
+        </div>
+        <div class="rocket-container">
+          <img src="images/foguete.png" alt="Foguete" class="foguete" />
+          <img src="images/pc.svg" alt="Notebook" class="notebook" />
+        </div>
+      </div>
+    </header>
+
+    <section class="about-section" id="quem-somos">
+      <div class="about-container">
+        <div class="about-images">
+          <img src="images/logoTbranco.svg" alt="Fotos Quem Somos" />
+        </div>
+        <div class="about-text">
+          <h2 class="text-center">Quem Somos</h2>
+          <p>
+            Somos um HUB de tecnologia e inovação, dedicado a levar
+            conectividade e inteligência para os negócios dos nossos clientes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards colocados fora de qualquer seção -->
+    <div class="services-grid cards-position" data-aos="fade-up">
+      <div class="service-card">
+        <i class="uil uil-database"></i>
+        <h3>Dados</h3>
+        <h4 class="service-subtitle">BIG DATA</h4>
+        <hr class="service-line" />
+        <p>
+          Trabalhe com os dados do seu negócio de forma simples, rápida, segura
+          e confiável.
+        </p>
+      </div>
+      <div class="service-card">
+        <i class="uil uil-cloud"></i>
+        <h3>Conectividade</h3>
+        <h4 class="service-subtitle">IOT</h4>
+        <hr class="service-line" />
+        <p>
+          Construa a nuvem do zero ou modernize a infraestrutura em computação
+          em nuvem.
+        </p>
+      </div>
+      <div class="service-card">
+        <i class="uil uil-robot"></i>
+        <h3>Inteligência Artificial</h3>
+        <h4 class="service-subtitle">IA</h4>
+        <hr class="service-line" />
+        <p>
+          Ative o potencial da IA na sua empresa, otimização de custos e
+          eficiência de serviços.
+        </p>
+      </div>
+      <div class="service-card">
+        <i class="uil uil-chart-line"></i>
+        <h3>Machine Learning</h3>
+        <h4 class="service-subtitle">ML</h4>
+        <hr class="service-line" />
+        <p>
+          Utilize aprendizado de máquina para melhorar suas operações e alcançar
+          resultados melhores.
+        </p>
+      </div>
+    </div>
+
+    <section class="services-section" id="servicos"></section>
+
+    <!-- Nova Seção de Destaque com efeito Parallax -->
+    <section class="highlight-section">
+      <div class="highlight-card">
+        <h3>Conheça nosso</h3>
+        <h2>Framework de Soluções Avançadas</h2>
+        <p>
+          Uma ferramenta poderosa que impulsiona a eficiência operacional e a
+          transformação digital nas empresas, com foco em IoT e I.A.
+        </p>
+        <a href="#explore" class="explore-btn">Explore nosso Framework</a>
+      </div>
+    </section>
+
+    <section class="solucoes-section">
+      <div class="solucoes-container">
+        <!-- Container que será alterado -->
+        <div class="solucoes-text">
+          <h3>Soluções e Plataformas</h3>
+          <p>
+            Potencializamos o poder da IoT e I.A. para criar soluções flexíveis
+            que impulsionam a eficiência, sustentabilidade e inovação.
+          </p>
+        </div>
+        <div class="solucoes-tree">
+          <ul>
+            <li><i class="uil uil-building"></i> Smart Building</li>
+            <li><i class="uil uil-bolt-alt"></i> GTD Energia</li>
+            <li><i class="uil uil-presentation"></i> Treinamentos</li>
+            <li><i class="uil uil-estate"></i> Smart/Tech Cities</li>
+            <li><i class="uil uil-flower"></i> Agro</li>
+            <li><i class="uil uil-setting"></i> Indústria</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Botões de avançar e voltar -->
+      <button class="slide-btn next"></button>
+      <button class="slide-btn-back prev" style="display: none"></button>
+    </section>
+
+    <!-- Seção de Parceiros -->
+    <section class="partners-section">
+      <h3 class="partners-title">Empresas que confiam na Taas Solution</h3>
+      <div class="partners-logos">
+        <img src="images/ibbx - cópia.png" alt="Empresa 1" />
+        <img src="images/pixit.png" alt="Empresa 2" />
+      </div>
+    </section>
+
+    <section class="video-section">
+      <div class="container">
+        <div class="video-content">
+          <div class="video-text">
+            <h2>PLATAFORMA DE TREINAMENTO E LANÇAMENTOS</h2>
+            <p>
+              <strong>Plataforma em IA que cria e personaliza:</strong>
+              Treinamentos, Cursos, Lançamento de Produtos, Comunicações e FAQs
+              com instrutores/atores/avaliações virtuais.
+            </p>
+            <div class="powered-by">
+              <p>
+                Powered by
+                <span class="pixit"
+                  ><span class="pix">PIX</span><span class="it">IT</span></span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="divider-line"></div>
+          <!-- Linha divisória -->
+          <div class="video-embed">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/zYDtDESp4og"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="iot-section">
+      <h2 class="iot-title">Dispositivos IoT</h2>
+
+      <div class="iot-content">
+        <!-- Colunas de Endpoints e Gateways -->
+        <div class="iot-row">
+          <div class="iot-column">
+            <h3 class="iot-column-title">Endpoints</h3>
+            <img
+              src="images/endpoint-security.png"
+              class="iot-icon"
+              alt="Ícone Endpoint"
+            />
+            <p>
+              Dispositivo de hardware multifuncional que pode ser incorporado em
+              diferentes ambientes e equipamentos, capaz de autorecarregar suas
+              baterias e transmitir a longas distâncias dados de qualquer tipo
+              para qualquer fim. Facilmente adaptáveis às necessidades do
+              cliente, para qualquer tipo de aplicação, realizando conexão com
+              todos os protocolos digitais e analógicos existentes.
+            </p>
+          </div>
+          <!-- Linha vertical de separação -->
+          <div class="vertical-divider"></div>
+          <div class="iot-column">
+            <h3 class="iot-column-title">Gateways</h3>
+            <img
+              src="images/gateway.png"
+              class="iot-icon"
+              alt="Ícone Gateway"
+            />
+            <p>
+              Criam uma rede IoT através do protocolo de comunicação
+              proprietário LRLC, transmitindo dados com longo alcance e baixo
+              custo. Podem ser conectados à rede elétrica ou a um painel solar e
+              enviam os dados digitalizados pelos endpoints à nuvem IBBX, se
+              conectando à internet através de redes celular, Starlink® ou
+              Wi-Fi.
+            </p>
+          </div>
+        </div>
+
+        <!-- Linha separadora horizontal -->
+        <div class="horizontal-divider"></div>
+
+        <!-- Plataforma -->
+        <div class="iot-row iot-platform">
+          <h3 class="iot-column-title">Plataforma</h3>
+          <img
+            src="images/platform.png"
+            class="iot-icon"
+            alt="Ícone Plataforma"
+          />
+          <p>
+            A Plataforma Retina é uma solução de software integrada, projetada
+            para aprimorar o monitoramento, controle e automação em diversos
+            setores através de tecnologias de IoT e Inteligência Artificial.
+            Compatível com diversos protocolos e sistemas, facilita a integração
+            com ERPs e possibilita uma comunicação bidirecional para
+            centralização de operações.
+          </p>
+        </div>
+
+        <!-- Powered by IBBX -->
+        <div class="powered-by">
+          <p>
+            Powered by
+            <span class="ibbx"
+              ><span class="ibb">IBB</span><span class="x">X</span></span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-container">
+        <!-- Bloco de Contato e Redes -->
+        <div class="footer-info">
+          <h3>Fale Conosco</h3>
+          <p>Email: contato@taassolution.com</p>
+          <p>Telefone: +55 51 9999-9999</p>
+
+          <h3>Siga-nos:</h3>
+          <div class="social-icons">
+            <a href="#"><i class="uil uil-linkedin"></i></a>
+            <a href="#"><i class="uil uil-instagram"></i></a>
+            <a href="#"><i class="uil uil-twitter"></i></a>
+            <a href="#"><i class="uil uil-facebook"></i></a>
+          </div>
+        </div>
+
+        <!-- Bloco do Mapa -->
+        <div class="footer-map">
+          <h3>Nossa Escritório</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.355248217797!2d-51.17186718452604!3d-30.030686681889117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197919b8c407c5%3A0xaf8b6d4ad93e0ff7!2sAv.%20Dr.%20Nilo%20Pe%C3%A7anha%2C%202825%20-%20Boa%20Vista%2C%20Porto%20Alegre%20-%20RS%2C%2091303-001%2C%20Brazil!5e0!3m2!1sen!2sus!4v1697047225698!5m2!1sen!2sus"
+            width="100%"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
