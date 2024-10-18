@@ -7,6 +7,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 nav {
   background-color: #001f3f;
@@ -79,13 +82,14 @@ nav {
 
 /* Estilização da Header */
 /* Estilização da Header */
+/* Estilização da Header */
 header {
   height: 100vh;
   background: linear-gradient(to bottom right, #001f3f, #005f9f);
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center; /* Centraliza o texto */
   color: white;
   position: relative;
   padding: 0 20px;
@@ -93,14 +97,15 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
   align-items: center;
   width: 100%;
   max-width: 1200px;
+  flex-direction: column; /* Faz o texto e o botão ficarem em uma coluna */
 }
 
 .header-text {
-  max-width: 50%;
+  max-width: 100%;
 }
 
 header h1 {
@@ -130,18 +135,8 @@ header p {
   background-color: #ff641a;
 }
 
-.logo-container {
-  position: relative;
-  max-width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.logo-header {
-  width: 350px; /* Ajuste o tamanho da logo conforme necessário */
-  margin-left: 20px; /* Espaçamento entre o texto e a logo */
-}
+
 
 /* Seção "Quem Somos" */
 .about-section {
