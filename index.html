@@ -28,8 +28,8 @@
         <ul class="nav__menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#quem-somos">Quem Somos</a></li>
-          <li><a href="#o-que-fazemos">O que fazemos</a></li>
-          <li><a href="#parceiros">Parceiros</a></li>
+          <li><a href="#fazemos">O que fazemos</a></li>
+          <li><a href="#parceiro">Parceiros</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
         <div class="language-switcher">
@@ -39,7 +39,7 @@
               alt="Português"
               class="flag-icon"
           /></a>
-          <a href="CC.html"
+          <a href="ingles.html"
             ><img src="images/usa-flag.webp" alt="English" class="flag-icon"
           /></a>
         </div>
@@ -53,15 +53,18 @@
     </nav>
 
     <header>
-      <div class="header-content">
-        <div class="header-text">
+      <div class="header-content" id="home">
+        <div class="header-text" >
           <h1>Conectamos sua jornada de transformação digital</h1>
           <p>Potencializamos a inovação e a eficiência.</p>
           <a href="#servicos" class="cta-button">Saiba Mais</a>
         </div>
-        <div class="rocket-container">
-          <img src="images/foguete.png" alt="Foguete" class="foguete" />
-          <img src="images/pc.svg" alt="Notebook" class="notebook" />
+        <div class="logo-container">
+          <img
+            src="images/logoTbranco.svg"
+            alt="Logo Taas Solution"
+            class="logo-header"
+          />
         </div>
       </div>
     </header>
@@ -136,12 +139,11 @@
           Uma ferramenta poderosa que impulsiona a eficiência operacional e a
           transformação digital nas empresas, com foco em IoT e I.A.
         </p>
-        <a href="#explore" class="explore-btn">Explore nosso Framework</a>
       </div>
     </section>
 
     <section class="solucoes-section">
-      <div class="solucoes-container">
+      <div class="solucoes-container" id="fazemos">
         <!-- Container que será alterado -->
         <div class="solucoes-text">
           <h3>Soluções e Plataformas</h3>
@@ -169,46 +171,10 @@
 
     <!-- Seção de Parceiros -->
     <section class="partners-section">
-      <h3 class="partners-title">Empresas que confiam na Taas Solution</h3>
+      <h3 class="partners-title" id="parceiros">Parcerias Estratégicas</h3>
       <div class="partners-logos">
         <img src="images/ibbx - cópia.png" alt="Empresa 1" />
         <img src="images/pixit.png" alt="Empresa 2" />
-      </div>
-    </section>
-
-    <section class="video-section">
-      <div class="container">
-        <div class="video-content">
-          <div class="video-text">
-            <h2>PLATAFORMA DE TREINAMENTO E LANÇAMENTOS</h2>
-            <p>
-              <strong>Plataforma em IA que cria e personaliza:</strong>
-              Treinamentos, Cursos, Lançamento de Produtos, Comunicações e FAQs
-              com instrutores/atores/avaliações virtuais.
-            </p>
-            <div class="powered-by">
-              <p>
-                Powered by
-                <span class="pixit"
-                  ><span class="pix">PIX</span><span class="it">IT</span></span
-                >
-              </p>
-            </div>
-          </div>
-          <div class="divider-line"></div>
-          <!-- Linha divisória -->
-          <div class="video-embed">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/zYDtDESp4og"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -287,8 +253,40 @@
       </div>
     </section>
 
+    <section class="video-section">
+      <div class="container">
+        <div class="video-content">
+          <div class="video-text">
+            <h2>PLATAFORMA DE TREINAMENTO E LANÇAMENTOS</h2>
+            <p>
+              <strong>Plataforma em IA que cria e personaliza:</strong>
+              Treinamentos, Cursos, Lançamento de Produtos, Comunicações e FAQs
+              com instrutores/atores/avaliações virtuais.
+            </p>
+            <div class="powered-by">
+              <p>
+                Powered by
+                <span class="pixit"
+                  ><span class="pix">PIX</span><span class="it">IT</span></span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="divider-line"></div>
+          <!-- Linha divisória -->
+          <div class="video-embed">
+            <video width="560" height="315" controls>
+              <source src="/images/WhatsApp Video 2024-10-09 at 15.07.28.mp4" type="video/mp4">
+              Seu navegador não suporta o elemento de vídeo.
+            </video>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
     <footer class="footer-section">
-      <div class="footer-container">
+      <div class="footer-container" id="contato">
         <!-- Bloco de Contato e Redes -->
         <div class="footer-info">
           <h3>Fale Conosco</h3>
